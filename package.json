@@ -1,0 +1,30 @@
+{
+  "name": "cds-tool",
+  "version": "1.0.0",
+  "description": "Command line util for @sap/cds",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./bin/cds-tool.js",
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MartinStenzig/cds-tool.git"
+  },
+  "keywords": [
+    "sap",
+    "cds",
+    "cap",
+    "tool"
+  ],
+  "author": "martin@stenzig.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MartinStenzig/cds-tool/issues"
+  },
+  "homepage": "https://github.com/MartinStenzig/cds-tool#readme",
+  "dependencies": {
+    "yaml": "^2.3.1"
+  }
+}
